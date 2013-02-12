@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python2_6 )
 
 inherit distutils-r1
 
-DESCRIPTION="Synnefo API client"
+DESCRIPTION="A command-line tool for managing clouds"
 HOMEPAGE="http://code.grnet.gr/projects/kamaki/"
 SRC_URI="mirror://gentoo/${P}.tar.gz"
 
