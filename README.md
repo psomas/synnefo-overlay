@@ -12,9 +12,11 @@ Usage
 -----
 Set up layman (http://www.gentoo.org/proj/en/overlays/userguide.xml), and then
 run:
+<pre>
 	layman -i synnefo
 	layman -a synnefo
 	layman -S 
+</pre>
 
 After that, you can emerge any of the ebuilds in the overlay.
 
