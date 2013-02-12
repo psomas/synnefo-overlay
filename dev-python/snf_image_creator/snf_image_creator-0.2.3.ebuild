@@ -17,7 +17,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-python/ansicolors[${PYTHON_USEDEP}]
-		 >=dev-python/progress-1.0.2[${PYTHON_USEDEP}]"
+		 >=dev-python/progress-1.0.2[${PYTHON_USEDEP}]
+		 dev-python/sh"
 
 DEPEND="${RDEPEND}
 		dev-python/setuptools[${PYTHON_USEDEP}]"
