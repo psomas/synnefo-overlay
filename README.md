@@ -7,3 +7,19 @@ required to setup and run the Synnefo IaaS cloud platform
 
 For more information about Synnefo, check out the docs
 (http://www.synnefo.org/docs) and our free trial on https://www.okeanos.io.
+
+Usage
+-----
+Set up layman (http://www.gentoo.org/proj/en/overlays/userguide.xml), and then
+run:
+ layman -i synnefo
+ layman -a synnefo
+ layman -S 
+
+After that, you can emerge any of the ebuilds in the overlay.
+
+About the ebuilds
+-----------------
+The overlay currently has ebuilds for kamaki (Synnefo CLI API client),
+snf-image-creator (create snapshot / images and register them with Synnefo) and
+a few Python packages they depend on.
