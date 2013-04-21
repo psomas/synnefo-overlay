@@ -21,10 +21,10 @@ DEPEND=""
 
 DOCS=( README.txt )
 
-python_install_all() {
+python_prepare_all() {
 	distutils-r1_python_prepare_all
 }
 
-python_prepare_all() {
+python_install_all() {
 	distutils-r1_python_install_all
 }
