@@ -23,7 +23,7 @@ DEPEND="${RDEPEND}
 DOCS=( README.rst )
 
 python_prepare_all() {
-	distutils-r1_python_prepare_all_
+	distutils-r1_python_prepare_all
 }
 
 python_install_all() {
