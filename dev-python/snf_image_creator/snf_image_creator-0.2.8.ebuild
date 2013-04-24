@@ -22,7 +22,8 @@ RDEPEND="dev-python/ansicolors[${PYTHON_USEDEP}]
 		 dev-python/pysendfile[${PYTHON_USEDEP}]
 		 dev-python/pyparted[${PYTHON_USEDEP}]
 		 dev-python/sh
-		 net-misc/rsync"
+		 net-misc/rsync
+		 app-emulation/libguestfs[python]"
 
 DEPEND="${RDEPEND}
 		dev-python/setuptools[${PYTHON_USEDEP}]"
