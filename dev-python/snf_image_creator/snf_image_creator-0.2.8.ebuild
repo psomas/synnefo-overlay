@@ -18,12 +18,16 @@ IUSE=""
 
 RDEPEND="dev-python/ansicolors[${PYTHON_USEDEP}]
 		 >=dev-python/progress-1.0.2[${PYTHON_USEDEP}]
-		 dev-python/sh"
+		 dev-python/pythondialog[${PYTHON_USEDEP}]
+		 dev-python/pysendfile[${PYTHON_USEDEP}]
+		 dev-python/pyparted[${PYTHON_USEDEP}]
+		 dev-python/sh
+		 net-misc/rsync"
 
 DEPEND="${RDEPEND}
 		dev-python/setuptools[${PYTHON_USEDEP}]"
 
-DOCS=( README.rst )
+DOCS=( README )
 
 python_install_all() {
 	distutils-r1_python_install_all

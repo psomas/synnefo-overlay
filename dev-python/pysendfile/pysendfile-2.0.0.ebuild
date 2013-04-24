@@ -20,7 +20,7 @@ RDEPEND=""
 DEPEND="${RDEPEND}
 		dev-python/setuptools[${PYTHON_USEDEP}]"
 
-DOCS=( README.rst )
+DOCS=( README )
 
 python_prepare_all() {
 	distutils-r1_python_prepare_all
