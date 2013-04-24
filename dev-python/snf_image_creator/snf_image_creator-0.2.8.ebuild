@@ -19,7 +19,7 @@ IUSE=""
 RDEPEND="dev-python/ansicolors[${PYTHON_USEDEP}]
 		 >=dev-python/progress-1.0.2[${PYTHON_USEDEP}]
 		 dev-python/pythondialog[${PYTHON_USEDEP}]
-		 dev-python/pysendfile[${PYTHON_USEDEP}]
+		 dev-python/pysendfile
 		 dev-python/pyparted[${PYTHON_USEDEP}]
 		 dev-python/sh
 		 net-misc/rsync
