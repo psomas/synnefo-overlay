@@ -18,6 +18,6 @@ IUSE=""
 
 RDEPEND=""
 DEPEND="${RDEPEND}
-		dev-python/setuptools[${PYTHON_USEDEP}]"
+	dev-python/setuptools[${PYTHON_USEDEP}]"
 
 DOCS=( README.rst )

@@ -17,10 +17,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ansicolors progressbar"
 
 RDEPEND="virtual/python-argparse[${PYTHON_USEDEP}]
-		 >=dev-python/objpool-0.2[${PYTHON_USEDEP}]
-		 dev-python/python-dateutil[${PYTHON_USEDEP}]
-		 ansicolors? ( dev-python/ansicolors[${PYTHON_USEDEP}] )
-		 progressbar? ( >=dev-python/progress-1.1[${PYTHON_USEDEP}] )"
+	>=dev-python/objpool-0.2[${PYTHON_USEDEP}]
+	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	ansicolors? ( dev-python/ansicolors[${PYTHON_USEDEP}] )
+	progressbar? ( >=dev-python/progress-1.1[${PYTHON_USEDEP}] )"
 DEPEND="${RDEPEND} dev-python/setuptools[${PYTHON_USEDEP}]"
 
 DOCS=( README.rst )
