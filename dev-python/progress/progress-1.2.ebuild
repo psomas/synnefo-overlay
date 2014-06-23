@@ -3,12 +3,12 @@
 # $Header: $
 
 EAPI=5
-PYTHON_COMPAT=( python{2_6,2_7,3_1,3_2} )
+PYTHON_COMPAT=( python{2_6,2_7,3_3} )
 
 inherit distutils-r1
 
-DESCRIPTION="A simple module to add ANSI colors and decorations to your strings"
-HOMEPAGE="http://github.com/verigak/colors/"
+DESCRIPTION="Easy to use progress bars"
+HOMEPAGE="http://github.com/verigak/progress/"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="ISC"
@@ -18,6 +18,6 @@ IUSE=""
 
 RDEPEND=""
 DEPEND="${RDEPEND}
-		dev-python/setuptools[${PYTHON_USEDEP}]"
+	dev-python/setuptools[${PYTHON_USEDEP}]"
 
 DOCS=( README.rst )

@@ -6,7 +6,7 @@
 	</maintainer>
 	<use>
 		<flag name="ansicolors">Use <pkg>dev-python/ansicolors</pkg> package</flag>
-		<flag name="progress">Use <pkg>dev-python/progress</pkg> package</flag>
+		<flag name="progressbar">Use <pkg>dev-python/progress</pkg> package</flag>
 	</use>
 </pkgmetadata>
 
