@@ -10,7 +10,8 @@ inherit distutils-r1 eutils versionator
 DESCRIPTION="A set of Python tools to manage versions, help implement the git flow development process"
 HOMEPAGE="https://github.com/grnet/devflow"
 MY_P="${PN}-$(get_version_component_range 1-2)$(get_version_component_range 3-3)"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_P}.tar.gz -> ${MY_P}.tar.gz"
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_P}.tar.gz"
+S="${WORKDIR}/${MY_P}"
 
 LICENSE="BSD-2"
 SLOT="0"
